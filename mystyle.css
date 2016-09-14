@@ -1,0 +1,49 @@
+p {
+  color: red;
+  color: #666666;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: "Didot", "Times New Roman", serif;
+  text-align: center;
+  font-size: 65px;
+}
+
+body {
+  background-color: #3d4c57;
+}
+
+#container{
+  width: 95%;
+  background-color: #76b3c7;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#image{
+  border-style: none;
+  margin: 5px auto;
+  display: block;
+
+}
+#links{
+  list-style-type: none;
+  text-align: center;
+}
+
+.caption {
+  color:black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top:0;
+  text-align: right;
+}
+
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
