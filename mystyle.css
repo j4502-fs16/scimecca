@@ -29,9 +29,11 @@ body {
   display: block;
 
 }
+
 #links{
   list-style-type: none;
   text-align: center;
+
 }
 
 .caption {
@@ -43,7 +45,31 @@ body {
   text-align: right;
 }
 
-a:link    {color:green; background-color:transparent; text-decoration:none}
-a:visited {color:pink; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline}
-a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+a:link    {color:green;
+          background-color:#98bf21;
+          text-decoration:none;
+          text-align:center;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+
+a:visited {color:pink;
+          background-color:#98bf21;
+          text-decoration:none;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+
+a:hover   {color:red;
+          background-color:#7a991a;
+          text-decoration:underline;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+a:active
+          {color:yellow;
+          background-color:#98bf21;
+          text-decoration:underline;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+
+img{
+  border-style: none;
+}
