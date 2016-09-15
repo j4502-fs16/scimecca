@@ -45,27 +45,26 @@ body {
   text-align: right;
 }
 
-a:link    {color:green;
-          background-color:#98bf21;
-          text-decoration:none;
-          text-align:center;
-          font-family: Helvetica, Arial, sans-serif;
-        }
-
-a:visited {color:pink;
-          background-color:#98bf21;
+a:link    {color:white;
+          background-color:#C1D879;
           text-decoration:none;
           font-family: Helvetica, Arial, sans-serif;
         }
 
-a:hover   {color:red;
-          background-color:#7a991a;
+a:visited {color:#d89179;
+          background-color:#C1D879;
+          text-decoration:none;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+
+a:hover   {color:#9079d8;
+          background-color:#C1D879;
           text-decoration:underline;
           font-family: Helvetica, Arial, sans-serif;
         }
 a:active
-          {color:yellow;
-          background-color:#98bf21;
+          {color:#394024;
+          background-color:#C1D879;
           text-decoration:underline;
           font-family: Helvetica, Arial, sans-serif;
         }
