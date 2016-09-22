@@ -1,24 +1,73 @@
-p {
-  color: red;
-  color: #666666;
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-
+html{
+  font-size: 100%
 }
 
 h1 {
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: 'Pattaya', Helvetica, sans-serif;
+  color: #556270;
   text-align: center;
   font-size: 65px;
 }
 
+ul.topnav {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 100;
+    color: #C0A878;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    background-color: #C0A878;
+    color: #FAF4E3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #556270;
+}
+
+ul.topnav li a:active {
+  background-color: #AAB3AB;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+p {
+  color: red;
+  color: #666666;
+  font-family: 'EB Garamond', 'Goudy Old Style', Georgia, serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+em{
+font-style: italic;
+}
+
 body {
-  background-color: #59465a;
+  background-color: #AAB3AB;
 }
 
 #container{
   width: 95%;
-  background-color: #e9e9e9;
+  background-color: #FAF4E3;
   margin: 20px auto;
   padding: 20px;
 }
@@ -27,48 +76,24 @@ body {
   border-style: none;
   margin: 5px auto;
   display: block;
-
-}
-
-#links{
-  list-style-type: none;
-  text-align: center;
-
 }
 
 .caption {
   color:black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'EB Garamond', 'Goudy Old Style', serif;
   font-size: 0.8em;
   font-style: italic;
   margin-top:0;
   text-align: right;
 }
 
-a:link    {color:#393939;
-          background-color:#b6ad86;
-          text-decoration:none;
-          font-family: Helvetica, Arial, sans-serif;
-        }
-
-a:visited {color:#d89179;
-          background-color:#b6ad86;
-          text-decoration:none;
-          font-family: Helvetica, Arial, sans-serif;
-        }
-
-a:hover   {color:#59465a;
-          background-color:#b6ad86;
-          text-decoration:underline;
-          font-family: Helvetica, Arial, sans-serif;
-        }
-a:active
-          {color:#394024;
-          background-color:#b6ad86;
-          text-decoration:underline;
-          font-family: Helvetica, Arial, sans-serif;
-        }
-
 img{
   border-style: none;
+}
+
+#footer {
+    color: black;
+    font-family: 'EB Garamond', 'Goudy Old Style', serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
 }
