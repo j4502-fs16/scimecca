@@ -131,3 +131,10 @@ ul li {
   margin-left: auto ;
   margin-right: auto ;
 }
+
+#footer {
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+}
