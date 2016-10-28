@@ -1,45 +1,103 @@
-p {
-  color: red;
-  color: #666666;
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-
+.navigation{
+  list-style:none;
+  background-color:#C0A878;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
-h1 {
+.navigation a{
+  text-decoration: none;
+  display: block;
+  text-align:center;
+  color: #f2f2f2;
+  padding: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+img{
+  width:100%;
+  border-style: none;
+  display: block;
+}
+
+.navigation li a:hover {
+  background-color: #556270;
+}
+
+.navigation li a:active {
+  background-color: #b6ad86;
+}
+a:link {
+  color:#white;
+  background-color:#C0A878;
+        }
+
+a:visited {
+  color:#white;
+  background-color:#C0A878;
+}
+
+.header, .main, .aside-1, .footer{
+  flex: 1 100%;
+  padding: 10px;
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+}
+
+.main{
+  text-align: center:
+}
+
+.aside-1{
+  text-align: left;
+}
+
+.header{
   font-family: 'Pattaya', sans-serif;
   color: #556270;
   text-align: center;
   font-size: 65px;
 }
 
+.footer{
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+  text-align: left;
+  color: black;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+  }
+}
+
+
+p {
+  color: #666666;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
 body {
   background-color: #AAB3AB;
 }
 
-footer{
-  font-family: 'EB Garamond', serif;
-  font-size: 10px;
-  text-align: left;
-}
 #container{
   width: 95%;
   background-color: #FAF4E3;
+  color: #666666;
   margin: 20px auto;
   padding: 20px;
-}
-
-#image{
-  border-style: none;
-  margin: 5px auto;
-  display: block;
-
-}
-
-#links{
-  list-style-type: none;
-  text-align: center;
-
+  display: flex;
+  flex-flow: column;
+  text-align: left;
 }
 
 .caption {
@@ -51,90 +109,63 @@ footer{
   text-align: right;
 }
 
-a:link    {color:#393939;
-          background-color:#C0A878;
-          text-decoration:none;
-          font-family: 'Raleway', sans-serif;
-        }
-
-a:visited {color:#d89179;
-          background-color:#C0A878;
-          text-decoration:none;
-          font-family: 'Raleway', sans-serif;
-        }
-
-a:hover   {color:#556270;
-          background-color:#C0A878;
-          text-decoration:underline;
-          font-family: 'Raleway', sans-serif;
-        }
-a:active
-          {color:#394024;
-          background-color:#C0A878;
-          text-decoration:underline;
-          font-family: 'Raleway', sans-serif;
-        }
-
-
-img{
-  border-style: none;
+.footer{
+  padding: 20px;
 }
+@media (min-width: 800px){
+  .navigation {
+    background-color:#C0A878;
+    flex-flow: row;
+    justify-content: flex-end;
+    }
+  .navigation a:hover {
+    background: black;
+  }
 
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    font-family: 'Frank Ruhl Libre', sans-serif;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* center nav bar */
-}
-
-/* Float the list items side by side */
-ul.topnav li {float: left;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
+  .aside{
+    flex: 1 auto;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+    align-self: stretch;
+  }
+
+  .main {
+    display: flex;
+    flex: 3 0px;
+  }
+  .aside-1{
+    order:3;
+
+  }
+
+  .main{
+    order:1;
+  }
+  .aside-2{
+    order: 3;
+  }
+  .footer{
+    order: 4;
+  }
+  .main {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+  }
+
+.aside{
+  display: flex;
+  flex-flow: row;
+  text-align: left;
+  padding: 20px;
 }
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {
-  background-color: #556270;
-}
-ul.topnav li a:active {
-  background-color: #b6ad86;
-}
+  img{
+  width: 80%;
+  height: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  }
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#content{
-    width: 450px;
-  margin-left: auto ;
-  margin-right: auto ;
-}
-
-#footer {
-    color: black;
-    font-family: 'EB Garamond', serif;
-    font-size: 0.8em;
-    border-top: 1px solid black;
-}
+  .navigation a {
+    border:none;
+  }
