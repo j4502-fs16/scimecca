@@ -9,17 +9,22 @@ p {
   text-align: left;
 }
 
-h2{
+h2, h4{
   font-family: "Pattaya", sans-serif;
   color: #556270;
 }
 
-#header, #nav, #footer, h1,  h3{
+
+#header, #nav, #footer, h1, h3{
 font-family: 'Raleway', sans-serif;
 }
 
 h1{
   letter-spacing: 3px;
+}
+
+h4{
+  font-size: 1.4em;
 }
 
 img{
@@ -94,6 +99,10 @@ img{
   #content{
     flex:3 auto;
   }
+
+h5{
+  display:none;
+}
 
   #sidebar{
     flex:1 auto;
